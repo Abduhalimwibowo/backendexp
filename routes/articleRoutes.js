@@ -29,7 +29,6 @@ router.get("/articles/:id", async (req, res) => {
   if (isNaN(id)) {
     return res.status(400).json({ error: "Invalid ID format" });
   }
-
   try {
     const article = await prisma.article.findUnique({
       where: { id: Number(id) },

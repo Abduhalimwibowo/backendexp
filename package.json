@@ -1,7 +1,6 @@
 {
   "name": "mburi",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +16,8 @@
     "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
-    "prisma": "^5.13.0"
-  }
+    "prisma": "^5.22.0"
+  },
+  "keywords": [],
+  "description": ""
 }
